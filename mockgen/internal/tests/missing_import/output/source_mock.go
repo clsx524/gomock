@@ -7,7 +7,7 @@ package source
 import (
 	reflect "reflect"
 
-	gomock "github.com/clsx524/gomock/gomock"
+	gomock "github.com/golang/mock/gomock"
 	source "github.com/clsx524/gomock/mockgen/internal/tests/missing_import/source"
 )
 

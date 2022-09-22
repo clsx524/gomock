@@ -4,7 +4,7 @@ package user_test
 import (
 	"testing"
 
-	"github.com/clsx524/gomock/gomock"
+	"github.com/golang/mock/gomock"
 	user "github.com/clsx524/gomock/sample"
 	"github.com/clsx524/gomock/sample/imp1"
 )

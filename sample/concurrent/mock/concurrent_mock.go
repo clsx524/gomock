@@ -7,7 +7,7 @@ package mock_concurrent
 import (
 	reflect "reflect"
 
-	gomock "github.com/clsx524/gomock/gomock"
+	gomock "github.com/golang/mock/gomock"
 )
 
 // MockMath is a mock of Math interface.

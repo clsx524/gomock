@@ -14,7 +14,7 @@ import (
 	reflect "reflect"
 	template0 "text/template"
 
-	gomock "github.com/clsx524/gomock/gomock"
+	gomock "github.com/golang/mock/gomock"
 	imp1 "github.com/clsx524/gomock/sample/imp1"
 	imp2 "github.com/clsx524/gomock/sample/imp2"
 	imp3 "github.com/clsx524/gomock/sample/imp3"

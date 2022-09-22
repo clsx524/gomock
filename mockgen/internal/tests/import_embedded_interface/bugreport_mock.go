@@ -7,7 +7,7 @@ package bugreport
 import (
 	reflect "reflect"
 
-	gomock "github.com/clsx524/gomock/gomock"
+	gomock "github.com/golang/mock/gomock"
 	ersatz "github.com/clsx524/gomock/mockgen/internal/tests/import_embedded_interface/ersatz"
 	ersatz0 "github.com/clsx524/gomock/mockgen/internal/tests/import_embedded_interface/other/ersatz"
 )
