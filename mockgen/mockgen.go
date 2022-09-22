@@ -44,7 +44,7 @@ import (
 )
 
 const (
-	gomockImportPath = "github.com/clsx524/gomock/gomock"
+	gomockImportPath = "github.com/golang/mock/gomock"
 )
 
 var (

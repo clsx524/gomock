@@ -5,7 +5,7 @@ import (
 
 	"context"
 
-	"github.com/clsx524/gomock/gomock"
+	"github.com/golang/mock/gomock"
 
 	mock "github.com/clsx524/gomock/sample/concurrent/mock"
 )

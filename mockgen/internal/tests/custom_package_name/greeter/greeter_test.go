@@ -3,7 +3,7 @@ package greeter
 import (
 	"testing"
 
-	"github.com/clsx524/gomock/gomock"
+	"github.com/golang/mock/gomock"
 	"github.com/clsx524/gomock/mockgen/internal/tests/custom_package_name/client/v1"
 )
 

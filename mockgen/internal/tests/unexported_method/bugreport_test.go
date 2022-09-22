@@ -3,7 +3,7 @@ package bugreport
 import (
 	"testing"
 
-	"github.com/clsx524/gomock/gomock"
+	"github.com/golang/mock/gomock"
 )
 
 func TestCallExample(t *testing.T) {

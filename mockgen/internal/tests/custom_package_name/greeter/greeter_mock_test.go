@@ -7,7 +7,7 @@ package greeter
 import (
 	reflect "reflect"
 
-	gomock "github.com/clsx524/gomock/gomock"
+	gomock "github.com/golang/mock/gomock"
 	client "github.com/clsx524/gomock/mockgen/internal/tests/custom_package_name/client/v1"
 )
 

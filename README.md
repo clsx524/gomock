@@ -250,7 +250,7 @@ If the received value is `3`, then it will be printed as `03`.
 
 [golang]:              http://golang.org/
 [golang-install]:      http://golang.org/doc/install.html#releases
-[gomock-reference]:    https://pkg.go.dev/github.com/clsx524/gomock/gomock
+[gomock-reference]:    https://pkg.go.dev/github.com/golang/mock/gomock
 [ci-badge]:            https://github.com/clsx524/gomock/actions/workflows/test.yaml/badge.svg
 [ci-runs]:             https://github.com/clsx524/gomock/actions
 [reference-badge]:     https://pkg.go.dev/badge/github.com/clsx524/gomock.svg

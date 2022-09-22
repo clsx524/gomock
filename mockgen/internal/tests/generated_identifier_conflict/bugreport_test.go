@@ -1,7 +1,7 @@
 package bugreport
 
 import (
-	"github.com/clsx524/gomock/gomock"
+	"github.com/golang/mock/gomock"
 	"testing"
 )
 

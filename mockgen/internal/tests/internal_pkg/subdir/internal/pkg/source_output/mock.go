@@ -7,7 +7,7 @@ package mock_pkg
 import (
 	reflect "reflect"
 
-	gomock "github.com/clsx524/gomock/gomock"
+	gomock "github.com/golang/mock/gomock"
 	pkg "github.com/clsx524/gomock/mockgen/internal/tests/internal_pkg/subdir/internal/pkg"
 )
 

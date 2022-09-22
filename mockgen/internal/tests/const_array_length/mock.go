@@ -7,7 +7,7 @@ package const_length
 import (
 	reflect "reflect"
 
-	gomock "github.com/clsx524/gomock/gomock"
+	gomock "github.com/golang/mock/gomock"
 )
 
 // MockI is a mock of I interface.
