@@ -10,7 +10,7 @@ import (
 	. "net/http"
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
+	gomock "github.com/clsx524/gomock/gomock"
 )
 
 // MockWithDotImports is a mock of WithDotImports interface.
