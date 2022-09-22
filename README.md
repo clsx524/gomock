@@ -18,13 +18,13 @@ To get the latest released version use:
 ### Go version < 1.16
 
 ```bash
-GO111MODULE=on go get github.com/golang/mock/mockgen@v1.6.0
+GO111MODULE=on go get github.com/clsx524/gomock/mockgen@v1.6.0
 ```
 
 ### Go 1.16+
 
 ```bash
-go install github.com/golang/mock/mockgen@v1.6.0
+go install github.com/clsx524/gomock/mockgen@v1.6.0
 ```
 
 If you use `mockgen` in your CI pipeline, it may be more appropriate to fixate
@@ -250,11 +250,11 @@ If the received value is `3`, then it will be printed as `03`.
 
 [golang]:              http://golang.org/
 [golang-install]:      http://golang.org/doc/install.html#releases
-[gomock-reference]:    https://pkg.go.dev/github.com/golang/mock/gomock
-[ci-badge]:            https://github.com/golang/mock/actions/workflows/test.yaml/badge.svg
-[ci-runs]:             https://github.com/golang/mock/actions
-[reference-badge]:     https://pkg.go.dev/badge/github.com/golang/mock.svg
-[reference]:           https://pkg.go.dev/github.com/golang/mock
+[gomock-reference]:    https://pkg.go.dev/github.com/clsx524/gomock/gomock
+[ci-badge]:            https://github.com/clsx524/gomock/actions/workflows/test.yaml/badge.svg
+[ci-runs]:             https://github.com/clsx524/gomock/actions
+[reference-badge]:     https://pkg.go.dev/badge/github.com/clsx524/gomock.svg
+[reference]:           https://pkg.go.dev/github.com/clsx524/gomock
 
 ## Debugging Errors
 
@@ -262,16 +262,16 @@ If the received value is `3`, then it will be printed as `03`.
 
 ```text
 cannot find package "."
-... github.com/golang/mock/mockgen/model
+... github.com/clsx524/gomock/mockgen/model
 ```
 
 If you come across this error while using reflect mode and vendoring
 dependencies there are three workarounds you can choose from:
 
 1. Use source mode.
-2. Include an empty import `import _ "github.com/golang/mock/mockgen/model"`.
+2. Include an empty import `import _ "github.com/clsx524/gomock/mockgen/model"`.
 3. Add `--build_flags=--mod=mod` to your mockgen command.
 
 This error is due to changes in default behavior of the `go` command in more
 recent versions. More details can be found in
-[#494](https://github.com/golang/mock/issues/494).
+[#494](https://github.com/clsx524/gomock/issues/494).

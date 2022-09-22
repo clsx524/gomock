@@ -33,7 +33,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/golang/mock/mockgen/model"
+	"github.com/clsx524/gomock/mockgen/model"
 )
 
 var (
