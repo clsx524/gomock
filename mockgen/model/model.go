@@ -24,7 +24,7 @@ import (
 )
 
 // pkgPath is the importable path for package model
-const pkgPath = "github.com/clsx524/gomock/mockgen/model"
+const pkgPath = "github.com/golang/mock/mockgen/model"
 
 // Package is a Go package. It may be a subset.
 type Package struct {
@@ -64,20 +64,24 @@ type Interface struct {
 // TypeParamIndexByName returns the index of the type parameter matching on name. If none matching, returns -1.
 //
 // This is especially useful for generics where interface is something like this:
-//    Doer[T any, K any]{
-//        Start(T)
-//        Add(K) error
-//        Stop() []K
-//    }
+//
+//	Doer[T any, K any]{
+//	    Start(T)
+//	    Add(K) error
+//	    Stop() []K
+//	}
 //
 // But it is used like this:
-//                      [     T        ,        K               ]
-//    type MyDoer = Doer[types.SomeType, otherPkg.SomeOtherThing]
+//
+//	                  [     T        ,        K               ]
+//	type MyDoer = Doer[types.SomeType, otherPkg.SomeOtherThing]
+//
 // or as an embedded interface:
-//    type MyDoer interface {
-//            [      T       ,       K                ]
-//        Doer[types.SomeType, otherPkg.SomeOtherThing]
-//    }
+//
+//	type MyDoer interface {
+//	        [      T       ,       K                ]
+//	    Doer[types.SomeType, otherPkg.SomeOtherThing]
+//	}
 //
 // If parsing the Add method for an implementation of this interface,
 // we need to be able to swap out K for whatever the actual type is.
